@@ -1,0 +1,42 @@
+@media (max-width: 945px) {
+  header {
+    align-items: start;
+    margin: 30px 25px 0px 30px;
+    display: flex;
+  }
+
+  header .logo img {
+    margin: 0;
+    margin-top: 30px;
+    width: 61.19px;
+    height: 62.87px;
+  }
+
+  header .bars {
+    margin-left: auto;
+    margin-top: 30px;
+    align-items: flex-end;
+    flex-direction: column-reverse;
+  }
+
+  header .bars .search-bar {
+    margin: 0;
+  }
+
+  header .bars .search-bar .search {
+    margin-right: 25px;
+    width: 634px;
+  }
+
+  header .bars .search-bar::after {
+    content: unset;
+  }
+
+  header .user-bar {
+    margin-bottom: 55px;
+  }
+
+  header .user-bar .location {
+    margin-right: 58px;
+  }
+}

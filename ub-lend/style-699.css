@@ -1,0 +1,8 @@
+@media (max-width: 699px) {
+  header .bars .search-bar .search {
+    width: 397px;
+  }
+  .discover .card:last-child{
+    display: none;
+  }
+}

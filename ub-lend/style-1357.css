@@ -1,0 +1,31 @@
+@media (max-width: 1357px) {
+  header {
+    margin: 23px 25px 43px 23px;
+  }
+
+  header .logo  img{
+    margin-right: 123px;
+    height: 62px;
+    width: 62px;
+  }
+
+  header .bars .search-bar {
+    margin-right: 87px;
+  }
+  header .bars .search-bar::after {
+    right: -42px;
+  }
+
+  header .bars .search-bar .search {
+    width: 634px;
+    margin-right: 21px;
+  }
+  header .user-bar .location {
+    margin-right: 14px;
+  }
+
+  .discover .cards-container .card .core {
+    border-radius: 12%;
+    width: 220px;
+  }
+}

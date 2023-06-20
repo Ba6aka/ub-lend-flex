@@ -1,0 +1,33 @@
+@media (max-width: 1111px) {
+  header {
+    margin: 23px 25px 43px 19px;
+  }
+
+  header .logo img {
+    width: 50.09px;
+    height: 62.76px;
+    margin-right: 104px;
+  }
+
+  header .bars .search-bar {
+    margin-right: 57px;
+  }
+
+  header .bars .search-bar::after {
+    right: -42px;
+  }
+
+  header .bars .search-bar .search {
+    width: 397px;
+    margin-right: 16px;
+  }
+
+  header .user-bar .location {
+    margin-right: 14px;
+  }
+  .discover .cards-container .card:last-child {
+    display: none;
+  }
+
+ 
+}

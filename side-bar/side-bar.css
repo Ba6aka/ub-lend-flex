@@ -1,0 +1,75 @@
+@import url('../fonts-css/fonts.css');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navigation-menu {
+  width: 215px;
+  margin-top: 160px;
+  padding-left: 60px;
+}
+
+ul {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 70px;
+  font-family: "Ballo2";
+  font-size: 16px;
+  font-weight: 500;
+}
+
+ul li::before {
+  content: "";
+  position: absolute;
+  left: -60px;
+  height: 63px;
+  width: 0;
+  background-color: #f9d44a;
+  transition: width 0.3s ease;
+  z-index: -1;
+  border-radius: 0px 31.5px 31.5px 0px;
+}
+
+ul li:hover::before {
+  width: 83px;
+  transition: all 0.3s ease;
+}
+
+ul li:hover img {
+  margin-right: 43px;
+}
+
+ul li img:hover {
+  margin-right: 43px;
+}
+ul li img {
+  margin-right: 16px;
+}
+
+.sing-out{
+  display: flex;
+  align-items: center;
+  margin-top: 222px;
+  margin-bottom: 65px;
+  font-family: "Ballo2";
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 60px;
+}
+
+.sing-out img{
+  margin-right: 16px;
+}
+
+
+@media (max-height: 0px) {}

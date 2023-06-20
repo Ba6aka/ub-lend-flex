@@ -1,0 +1,80 @@
+@import url("../fonts-css/fonts.css");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2f8fd;
+}
+
+ul {
+  max-width: 395px;
+}
+
+ul li {
+  margin-bottom: 50px;
+  position: relative;
+  display: flex;
+}
+
+ul li .blur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: blur(50px);
+  z-index: -1;
+  border-radius: 20px;
+}
+
+ul li .picture {
+  border-radius: 20px;
+}
+
+ul li .location {
+  display: flex;
+}
+
+ul li .location img {
+  margin-right: 10px;
+}
+
+ul li .location p {
+  font-family: "Baloo ";
+  font-weight: 500;
+  font-size: 16px;
+  color: #18333e;
+  opacity: 0.7;
+}
+
+.place {
+  align-self: center;
+  flex: 1;
+  margin-left: 15px;
+}
+
+.place .title {
+  margin-bottom: 12px;
+  font-family: 'Baloo2';
+  font-weight: 500;
+  font-size: 22px;
+  
+  color: #18333E;
+}
+
+.heart {
+  justify-content: flex-end;
+  align-self: center;
+}
+
+.heart button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 10px 11px 10px 11px;
+  background: #e9f1fa;
+  backdrop-filter: blur(2px);
+  border: none;
+}
